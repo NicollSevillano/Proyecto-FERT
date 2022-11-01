@@ -1,0 +1,33 @@
+.footer{
+    grid-area: footer;
+    width: 100%;
+    background-color: #3B3B3B;
+    color: #FECE5E;
+    .foot1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 20px 0px;
+    }
+}
+.foot figure{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Redes{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #FECE5E;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
