@@ -38,7 +38,7 @@
 /*MAIN*/
 .main {
   grid-area: main;
-  background-image: url(../../img/aaaa.png);
+  background-image: url("../img/aaaa.png");
   height: 650px;
   background-position: center;
   background-size: cover;
@@ -66,10 +66,9 @@
   flex-wrap: wrap;
 }
 
-.Main {
+.MainServicios {
   grid-area: main;
-  background-image: url("../../img/Rectangle.png") !important;
-  height: 650px;
+  background-image: url("../img/Rectangle.png");
   display: flex;
   flex-wrap: wrap;
   background-position: center;
@@ -84,13 +83,12 @@
 
 .cajas {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "c1" "c2" "c3" "c4";
+  grid-template-areas: "c1 c2" "c3 c4";
+  gap: 20px;
   opacity: 0.7;
   margin: 20px;
   padding: 30px;
-  justify-content: center;
+  justify-self: center;
   align-items: center;
 }
 .cajas h5 {
@@ -118,8 +116,8 @@
 
 .mainN {
   grid-area: main;
-  background-image: url(../../img/Rectangle.png);
-  height: 655px;
+  background-image: url("../img/Rectangle.png");
+  height: 650px;
   display: flex;
   background-position: center;
   background-size: cover;
@@ -134,8 +132,8 @@
 
 .nos {
   opacity: 0.7;
-  height: 70%;
-  width: 70%;
+  margin: 5%;
+  padding: 5%;
 }
 
 .noso h5 {
@@ -149,7 +147,7 @@
 
 .mainContacto {
   grid-area: main;
-  background-image: url(../../img/contactate.png);
+  background-image: url("../img/contactate.png");
   height: 655px;
   border-top-color: #F4CE5E;
   border-bottom-color: #F4CE5E;
@@ -173,7 +171,7 @@
 
 .mainCC {
   grid-area: main;
-  background-image: url(../../img/cargacritica.png);
+  background-image: url("../img/cargacritica.png");
   height: 655px;
   border-top-color: #F4CE5E;
   border-bottom-color: #F4CE5E;
@@ -247,9 +245,21 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .Main {
-    display: flex;
-    flex-wrap: wrap;
+  .MainServicios {
+    display: grid;
+    grid-template-areas: "c1" "c2" "c3" "c4";
+  }
+  .c1 {
+    grid-area: c1;
+  }
+  .c2 {
+    grid-area: c2;
+  }
+  .c3 {
+    grid-area: c3;
+  }
+  .c4 {
+    grid-area: c4;
   }
   .mainN {
     display: flex;
@@ -271,10 +281,17 @@
   .noso p {
     display: flex;
     flex-wrap: wrap;
+    text-overflow: ellipsis;
   }
   .mainCC {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .foot1 {
     display: flex;

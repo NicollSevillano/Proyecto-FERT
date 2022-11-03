@@ -1,7 +1,7 @@
 .mainN{
     grid-area: main;
-    background-image: url(../../img/Rectangle.png);
-    height: 655px;
+    background-image: url("../img/Rectangle.png");
+    height: 650px;
     display: flex;
     background-position: center;
     background-size:cover;
@@ -15,9 +15,10 @@
 }
 .nos{
     opacity: .70;
-    height: 70%;
-    width: 70%;
+    margin: 5%;
+    padding: 5%;
 }
+
 .noso h5{
     text-decoration: underline;
     font-size: 50px;

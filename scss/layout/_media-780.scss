@@ -1,0 +1,58 @@
+@media (max-width: 767px) { 
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        & navbar:hover{
+            color: #E5E4E2;
+        }
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        & boxIndex1 h1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .MainServicios{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mainN{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .card{
+        height: 500px;
+    }
+    .noso{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20%;
+        & p{
+            display: flex;
+            flex-wrap: wrap;
+            text-overflow:ellipsis;
+        }
+    }
+    .mainCC{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sec{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
