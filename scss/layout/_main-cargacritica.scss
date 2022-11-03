@@ -1,0 +1,32 @@
+.mainCC{
+    grid-area: main;
+    background-image: url(../../img/cargacritica.png);
+    height: 655px;
+    border-top-color: #F4CE5E;
+    border-bottom-color: #F4CE5E;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.secCC{
+    display: flex;
+    justify-items: center;
+    padding: 60px;
+    margin: 20px;
+    & sec{
+        margin: 20px;
+        
+    }
+}
+.but{
+    background-color: #F4CE5E;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color: #F4CE5E;
+
+}

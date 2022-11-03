@@ -1,5 +1,12 @@
 
 @import "./utilities/variables";
 @import "./base/reset";
+@import "./layout/header";
 @import "./layout/index";
+@import "./layout/main-servicios";
+@import "./layout/main-nosotros";
+@import "./layout/main-contacto";
+@import "./layout/main-cargacritica";
 @import "./layout/footer";
+
+@import "./layout/media-480";
