@@ -11,35 +11,55 @@
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 3px;
+    
 }
-.cajas{ 
+.cajas{
     display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
     grid-template-areas: 
-    "c1 c2"
-    "c3 c4"
+    "caja1 caja2"
+    "caja3 caja4"
     ;
-    gap: 20px;
+    color: black;
+}
+.cajaS{
+    gap: 4rem;
+    background-color: #D9D9D9;
     opacity: .70;
     margin: 20px;
-    padding: 30px;
-    justify-self: center;
+    border-radius: 10PX;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     & h5{
         text-decoration: underline;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    & img{
-        padding-top: 20px;
+    & p{
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
-.c1{
-    grid-area: c1;
+.imgServicios{
+    display: flex;
+    padding-left: 20px;
+    color: black;
 }
-.c2{
-    grid-area: c2;
+.caja1{
+    grid-area: caja1;
 }
-.c3{
-    grid-area: c3;
+.caja2{
+    grid-area: caja2;
 }
-.c4{
-    grid-area: c4;
+.caja3{
+    grid-area: caja3;
+}
+.caja4{
+    grid-area: caja4;
 }

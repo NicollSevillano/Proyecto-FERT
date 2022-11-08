@@ -1,4 +1,4 @@
-@media (max-width: 578px) { 
+@media (max-width: 830px) { 
     .head{
         display: flex;
         flex-wrap: wrap;
@@ -6,6 +6,7 @@
             color: #E5E4E2;
         }
     }
+    /*Main Index*/
     .main{
         display: flex;
         flex-wrap: wrap;
@@ -14,59 +15,48 @@
             flex-wrap: wrap;
         }
     }
-    .MainServicios{
-        display: grid;
-        grid-template-areas: 
-        "c1"
-        "c2"
-        "c3"
-        "c4"
-        ;
-    }
-    .c1{
-        grid-area: c1;
-    }
-    .c2{
-        grid-area: c2;
-    }
-    .c3{
-        grid-area: c3;
-    }
-    .c4{
-        grid-area: c4;
-    }
+    /*Main Nosotros*/
     .mainN{
         display: flex;
         flex-wrap: wrap;
     }
-    .main{
+    /*Main Servicios*/
+    .MainServicios{
         display: flex;
         flex-wrap: wrap;
-        height: 500px;
+        flex-direction: column;
     }
-    .card{
-        height: 500px;
-    }
-    .noso{
+    .cajaS{
         display: flex;
         flex-wrap: wrap;
-        font-size: 20%;
-        & p{
-            display: flex;
-            flex-wrap: wrap;
-            text-overflow:ellipsis;
-        }
+        flex-direction: column;
     }
+    /*Main Contacto*/
     .mainCC{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
     }
-    .sec{
+    .form-critical{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .form-request{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact{
+        height:min-content;
+    }
+    
+    /*Main Carga Crítica*/
+    .form-critical{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /*Footer*/
     .foot1{
         display: flex;
         flex-direction: column;

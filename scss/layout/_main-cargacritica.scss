@@ -1,32 +1,70 @@
 .mainCC{
     grid-area: main;
     background-image: url("../img/cargacritica.png");
-    height: 655px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
     border-top-color: #F4CE5E;
     border-bottom-color: #F4CE5E;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 3px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-}
-.secCC{
-    display: flex;
-    justify-items: center;
-    padding: 60px;
-    margin: 20px;
-    & sec{
-        margin: 20px;
-        
-    }
-}
-.but{
-    background-color: #F4CE5E;
+} 
+.form-critical{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "colum1 colum2"
+    ;
+    opacity: .80;
     color: black;
-    font-weight: bolder;
+}
+.CC{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    color: black;
+}
+.contacCC{
+    height: 3rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
-    border-color: #F4CE5E;
-
+    outline: 0;
+    border-color: transparent;
+    color: black;
+}
+.contacCC1{
+    height: 2.5rem;
+    width: 10rem;display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    outline: 0;
+    border-color: transparent;
+    color: black;
+}
+.botonCC{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #F4CE5E;
+    border-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.colum1{
+    grid-area: colum1;
+}
+.colum2{
+    grid-area: colum2;
 }

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FERT</title>
+    <title>FERT | CargaCrítica</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/f.png" type="image/x-icon" >
 </head>
 
 </head>
@@ -37,50 +38,24 @@
         </header>
 
         <main class="mainCC">
-            <section class="secCC">
-                <div class="sec">
-                    <input class="form-control" type="text" placeholder="Nombre y Apellido*" style="height: 50px; width: 500px;" aria-label="Nombre y Apellido*" >
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label"></label>
-                            <input type="email" class="form-control" style="height: 50px; width: 500px;" id="exampleFormControlInput1" placeholder="Email*">
-                        </div>         
-                    <input class="form-control" type="telefono" placeholder="Teléfono*" style="height: 50px; width: 500px;" aria-label="Teléfono*">
-                    <input class="form-control" type="text" placeholder="Empresa*" style="height: 50px; width: 500px;" aria-label="Empresa*">
-                    <form class="row g-3">
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label"></label>
-                            <input type="text" class="form-control" id="inputAddress" style="height: 50px; width: 500px;" placeholder="Origen">
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress2" class="form-label"></label>
-                            <input type="text" class="form-control" id="inputAddress2" style="height: 50px; width: 500px;" placeholder="Destino">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label"></label>
-                            <input type="text" class="form-control" id="inputCity" style="height: 50px; width: 500px;" placeholder="Ciudad">
-                        </div>
-                        <div class="col-md-2">
-                            <label for="inputZip" class="form-label">Cp</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </form>
+            <form class="form-critical">
+                <div class="CC colum1">
+                    <input class="contacCC" type="text" name="Nombrey Apellido" id="NombreyApellido" placeholder="Nombre y Apellido*">
+                    <input class="contacCC" type="email" name="Email" id="Email" placeholder="Email Corporativo*">
+                    <input class="contacCC" type="tel" name="Telefono" id="Telefono" placeholder="Teléfono*">
+                    <input class="contacCC" type="text" name="Empresa" id="Empresa" placeholder="Empresa*">
+                    <input class="contacCC" type="text" name="Origen" id="Origen" placeholder="Origen*">
+                    <input class="contacCC" type="text" name="Destino" id="Destino" placeholder="Destino*">
+                    <input class="contacCC" type="text" name="Ciudad" id="Ciudad" placeholder="Ciudad">
+                    <input class="contacCC1" type="text" name="CP" id="inputzip" placeholder="CP">
                 </div>
-                <div class="sec">
-                    <input class="form-control" type="text" placeholder="Producto" style="height: 50px; width: 500px;" aria-label="default input example">
-                    <input class="form-control" type="text" placeholder="Cantidad" style="height: 50px; width: 500px;" aria-label="default input example">
-                    <label for="start">Fecha de Entrega*</label>
-                        <input type="date" id="start" name="trip-start"
-                            value=""
-                            min="2000-01-01" max="2044-12-31" >
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label" ></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" for="floatingTextarea2" placeholder="Comentanos más especificaciones que creas valiosa"></textarea>
-                    </div>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="but btn btn-primary" type="button">Enviar</button>
-                    </div>
+                <div class="CC colum2">
+                    <input class="contacCC" type="text" name="Producto" id="Productp" placeholder="Producto*">
+                    <input class="contacCC" type="text" name="Cantidad" id="Cantidad" placeholder="Cantidad*">
+                    <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Comentanos que especificaciones crees valiosa para poder armar tu software"></textarea>
+                    <input class="botonCC" type="button" value="Enviar">
                 </div>
-            </section>
+            </form>
         </main>
         
         <footer class="footer">

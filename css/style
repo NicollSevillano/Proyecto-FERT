@@ -254,7 +254,7 @@ textarea {
 .mainCC {
   grid-area: main;
   background-image: url("../img/cargacritica.png");
-  height: 100vh;
+  height: 800px;
   display: flex;
   flex-wrap: wrap;
   background-position: center;
@@ -316,8 +316,6 @@ textarea {
   border-radius: 10px;
   text-transform: uppercase;
   color: black;
-  display: flex;
-  justify-content: center;
 }
 
 .colum1 {
@@ -410,9 +408,10 @@ textarea {
   /*Main Carga Crítica*/
   .mainCC {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
   }
-  .form-critical {
+  .sec {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -447,6 +446,11 @@ textarea {
     display: flex;
     flex-wrap: wrap;
   }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+  }
   /*Main Servicios*/
   .MainServicios {
     display: flex;
@@ -475,9 +479,10 @@ textarea {
   /*Main Carga crítico*/
   .mainCC {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
   }
-  .form-critical {
+  .sec {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -511,6 +516,11 @@ textarea {
     display: flex;
     flex-wrap: wrap;
   }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+  }
   /*Main Servicios*/
   .MainServicios {
     display: flex;
@@ -525,9 +535,10 @@ textarea {
   /*Main Carga Crítica*/
   .mainCC {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
   }
-  .form-critical {
+  .sec {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -561,6 +572,11 @@ textarea {
     display: flex;
     flex-wrap: wrap;
   }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+  }
   /*Main Servicios*/
   .MainServicios {
     display: flex;
@@ -575,15 +591,10 @@ textarea {
   /*Main Carga Crítica*/
   .mainCC {
     display: flex;
-    flex-wrap: wrap;
-    height: auto;
-  }
-  .form-critical {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .CC {
+  .sec {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -596,4 +607,4 @@ textarea {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.map */

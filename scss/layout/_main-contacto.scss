@@ -1,22 +1,66 @@
 .mainContacto{
     grid-area: main;
     background-image: url("../img/contactate.png");
-    height: 655px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
     border-top-color: #F4CE5E;
     border-bottom-color: #F4CE5E;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 3px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    color: black;
 }
 .sectionContacto{
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     & h1{
         display: flex;
         text-decoration: underline;
         padding-bottom: 10px;
+        justify-content: center;
     }
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-request{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    opacity: .70;
+}
+.contact{
+    height: 3rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    outline: 0;
+    border-color: transparent;
+}
+textarea{
+    width: 30rem;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: 0;
+}
+.boton{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #F4CE5E;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.boton:hover {
+    background-color:antiquewhite;
 }

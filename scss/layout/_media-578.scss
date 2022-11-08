@@ -1,10 +1,9 @@
-@media (max-width: 780px) { 
+@media (max-width: 578px) { 
     .head{
         display: flex;
         flex-wrap: wrap;
         & navbar:hover{
             color: #E5E4E2;
-            text-align: center;
         }
     }
     /*Main Index*/
@@ -21,16 +20,16 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+    }
     /*Main Servicios*/
     .MainServicios{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    }
-    .cajas{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
     }
     .cajaS{
         display: flex;
@@ -46,7 +45,13 @@
         display: flex;
         flex-wrap: wrap;
     }
-    /*Main Carga crítico*/
+    input{
+        display: flex;
+        flex-wrap: wrap;
+        height: min-content;
+    }
+
+    /*Main Carga Crítica*/
     .mainCC{
         display: flex;
         flex-wrap: wrap;

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FERT</title>
+    <title>FERT | Contacto</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/f.png" type="image/x-icon" >
 
 </head>
 <body>
@@ -37,24 +38,14 @@
 
         <main class="mainContacto">
             <section class="sectionContacto">
-                <div class="box1Sec">
-                    <h1>CONTACTATE</h1>
-                </div>
-                <div class="box2Sec">
-                    <input class="form-control" type="text" placeholder="Nombre y Apellido*" aria-label="Nombre y Apellido*">
-                        <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
-                        </div>         
-                    <input class="form-control" type="telefono" placeholder="Teléfono*" aria-label="Teléfono*">
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" for="floatingTextarea2" placeholder="Escribí tu mensaje..."></textarea>
-                        </div>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="but btn btn-primary" type="button">Enviar</button>
-                        </div>
-                </div>
+                <form class="form-request">
+                    <h1>CONTÁCTANOS</h1>
+                    <input class="contact" type="text" name="Nombrey Apellido" id="NombreyApellido" placeholder="Nombre y Apellido*">
+                    <input class="contact" type="email" name="Email" id="Email" placeholder="Email*">
+                    <input class="contact" type="tel" name="Telefono" id="Telefono" placeholder="Teléfono*">
+                    <textarea name="Comentarios" id="Comentarios" cols="69" rows="10" placeholder="Escribí tu mensaje..."></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
             </section>
         </main>
         

@@ -1,0 +1,58 @@
+@media (max-width: 1200px) { 
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        & navbar:hover{
+            color: #E5E4E2;
+        }
+    }
+    /*Main Index*/
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        & boxIndex1 h1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    /*Main Nosotros*/
+    .mainN{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*Main Servicios*/
+    .MainServicios{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .cajaS{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    
+    /*Main Carga Crítica*/
+    .mainCC{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .form-critical{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .CC{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /*Footer*/
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

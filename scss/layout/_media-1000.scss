@@ -1,10 +1,9 @@
-@media (max-width: 780px) { 
+@media (max-width: 1000px) { 
     .head{
         display: flex;
         flex-wrap: wrap;
         & navbar:hover{
             color: #E5E4E2;
-            text-align: center;
         }
     }
     /*Main Index*/
@@ -27,26 +26,14 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .cajas{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
     .cajaS{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    /*Main Contacto*/
-    .mainContacto{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .form-request{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /*Main Carga crítico*/
+
+    
+    /*Main Carga Crítica*/
     .mainCC{
         display: flex;
         flex-wrap: wrap;
