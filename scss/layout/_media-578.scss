@@ -23,10 +23,17 @@
     .main{
         display: flex;
         flex-wrap: wrap;
-        height: 500px;
     }
     /*Main Servicios*/
     .MainServicios{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .cajas{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -40,21 +47,23 @@
     .mainContacto{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     .form-request{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        gap: 1.5rem;
+        width: auto;
     }
-    input{
-        display: flex;
-        flex-wrap: wrap;
-        height: min-content;
+    .sectionContacto{
+        width:  auto;
     }
 
     /*Main Carga Crítica*/
     .mainCC{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     .form-critical{
         display: flex;

@@ -1,7 +1,7 @@
 .mainN{
     grid-area: main;
     background-image: url("../img/Rectangle.png");
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     background-position: center;
@@ -22,14 +22,22 @@
     flex-wrap: wrap;
     border-radius: 15px;
     color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-
+.noso{
+    gap: 10px;
+}
 .noso h5{
     text-decoration: underline;
     font-size: 50px;
-    color: black;
+    color: #7E7876;
+    font-weight: bolder;
 }
 .noso p{
-    font-size: 30px;
+    font-size: 40px;
     color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 }

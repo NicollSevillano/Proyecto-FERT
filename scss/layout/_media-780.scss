@@ -20,17 +20,21 @@
     .mainN{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     /*Main Servicios*/
     .MainServicios{
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .cajas{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .cajaS{
         display: flex;
@@ -41,15 +45,22 @@
     .mainContacto{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     .form-request{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        gap: 1.5rem;
+        
+    }
+    .sectionContacto{
+        min-width: 50%;
     }
     /*Main Carga crítico*/
     .mainCC{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     .form-critical{
         display: flex;

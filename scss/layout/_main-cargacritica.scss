@@ -1,7 +1,7 @@
 .mainCC{
     grid-area: main;
     background-image: url("../img/cargacritica.png");
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     background-position: center;
@@ -33,7 +33,7 @@
 }
 .contacCC{
     height: 3rem;
-    width: 30rem;
+    width: 27rem;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -62,9 +62,24 @@
     display: flex;
     justify-content: center;
 }
+.CC{
+    display: flex;
+    flex-wrap: wrap;
+}
+.CC1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .colum1{
     grid-area: colum1;
 }
 .colum2{
     grid-area: colum2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 27rem;
 }

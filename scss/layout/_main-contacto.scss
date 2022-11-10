@@ -1,7 +1,7 @@
 .mainContacto{
     grid-area: main;
     background-image: url("../img/contactate.png");
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     background-position: center;
@@ -24,6 +24,7 @@
         text-decoration: underline;
         padding-bottom: 10px;
         justify-content: center;
+        font-weight: bolder;
     }
     display: flex;
     flex-wrap: wrap;
@@ -31,13 +32,13 @@
 .form-request{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 13px;
     align-items: center;
     opacity: .70;
 }
 .contact{
     height: 3rem;
-    width: 30rem;
+    width: 27rem;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;

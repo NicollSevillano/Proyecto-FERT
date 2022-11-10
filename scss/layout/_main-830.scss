@@ -19,34 +19,31 @@
     .mainN{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
     /*Main Servicios*/
     .MainServicios{
         display: flex;
         flex-wrap: wrap;
+        height: auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .cajaS{
+    .cajas{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
     /*Main Contacto*/
-    .mainCC{
+    .mainContacto{
         display: flex;
         flex-wrap: wrap;
-    }
-    .form-critical{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        height: auto;
     }
     .form-request{
         display: flex;
         flex-wrap: wrap;
-    }
-    .contact{
-        height:min-content;
     }
     
     /*Main Carga Crítica*/
